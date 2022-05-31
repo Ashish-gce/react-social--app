@@ -1,0 +1,61 @@
+React social Application (client folder)
+-------------------------
+client Setup
+-----------------------------
+-> npx create-react-app client
+-> configure bootstrap , fontawesome icons
+	-> npm install mdbootstrap @fortawesome/fontawesome-free
+	-> index.js file with all css files
+	-> index.html fontawesome css file
+	-> add google fonts "Ubuntu" font in index.html
+
+-> install axios , react-router-dom
+	-> npm install axios react-router-dom
+
+-> configure redux
+	-> install the redux related packages
+	-> npm install redux react-redux redux-thunk redux-logger redux-devtools-extension
+	-> configure store & root Reducer
+	-> Provide the "store" to React Application
+
+-> application folder structure
+	-> layout
+		-> home
+		-> navbar
+		-> util
+			-> spinner
+			-> alert
+	-> modules
+		-> users
+			-> user-register
+			-> user-login
+		-> posts
+			-> post-list
+			-> post-details
+		-> developers
+			-> developer-list
+			-> developer-details
+		-> profiles
+			-> dashboard
+			-> edit-profile
+			-> add-experience
+			-> add-education
+			-> create-profile
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
